@@ -1,0 +1,220 @@
+#header {
+	display: block;
+	margin: auto;
+
+	width: 1000px;
+	height: 238px;
+}
+
+#navBar {
+	text-align: center;
+
+	min-width: 1000px;
+	max-width: 100%
+}
+
+#shopHeader {
+	text-shadow: 2px 2px #e6b3ff;
+	letter-spacing: 5px;
+	text-align: center;
+	font-size: 350%;
+}
+
+#logBar ul {
+	position: fixed;
+	z-index: 1000;
+	margin: 0;
+	
+	left: 0;
+	top: 0;
+
+	padding: 0;
+
+	overflow: hidden;
+
+	background-color: pink;
+
+	border-bottom: 2px solid purple;
+
+	list-style: none;
+	width: 100%;
+}
+
+#logBar li {
+	float: right;
+
+	border-left: 3px dotted purple;
+	color: red;
+
+	width: 200px;
+}
+
+#logBar li:first-child {
+	border-left: none;
+	float: left;
+}
+
+#logBar li:first-child:hover {
+	background-color: pink;
+}
+
+#logBar li:hover {
+	background-color: blanchedalmond;
+}
+
+#logBar li a {
+	display: block;
+	margin: auto;
+
+	text-align: center;
+
+	padding: 10px 20px;
+	width: 150px;
+}
+
+#navBar ul {
+	margin: auto;
+	padding: 0;
+
+	list-style: none;
+
+	width: 910px;
+}
+
+#navBar li {
+	display: inline-block;
+	width: 200px;
+}
+
+#navBar li a {
+	display: block;
+	margin: auto;
+
+	background-color: #e6b3ff;
+
+	border-style: dashed;
+	border-radius: 10px;
+
+	padding: 5px 20px;
+	width: 100px;
+}
+
+#playButton {
+	display: block;
+	margin: auto;
+
+	width: 260px;
+	height: 72px;
+}
+
+#directions {
+	font-family: "Courier";
+	font-style: italic;
+
+	text-shadow: 1px 1px blue;
+}
+
+.mainTextBox {
+	position: relative;
+	margin: 40px auto;
+
+	border-style: dashed;
+	border-radius: 10px;
+
+	text-align: left;
+	text-shadow: 1px 1px #ff66cc;
+	color: black;
+
+	font-size: 150%;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+
+	padding: 32px;
+	
+	min-width: 1000px;
+	max-width: 1064px;
+}
+
+.imageRight {
+	margin: 0 0 0 32px;
+	padding: 15px;
+	
+	float: right;
+
+	border-style: dashed;
+	border-radius: 10px;
+
+	width: 150px;
+	height: 150px;
+}
+
+.justifyRight {
+	position:relative;
+	margin-right: 60%;
+	float: right;	
+	width: 230px;
+	top: 10px;
+}
+
+.blueBack {
+	background-color: #b3f0ff;
+}
+
+.purpBack {
+	background-color: #e6b3ff;
+}
+
+.orangeBack {
+	background-color: #ffe6b3;
+}
+
+.add {
+	display: inline-block;
+	position: absolute;
+	left: 400px;
+
+	height: 32px;
+}
+
+.browseItems {
+	margin: 0;
+
+	border-style: dashed;
+	border-radius: 10px;
+
+	padding: 15px;
+
+	width: 480px;
+	height: 360px;
+}
+
+.displayItems {
+	margin: 0;
+
+	border-style: dashed;
+	border-radius: 10px;
+
+	padding: 15px;
+
+	width: 480px;
+	height: 360px;
+
+	float: right;
+}
+
+h1, h2 {
+	margin: 40px auto;
+
+	text-align: left;
+	text-shadow: 2px 2px #ff66cc;
+	color: black;
+
+	font-size: 250%;
+	font-family: "Bookman Old Style";
+
+	min-width: 1000px;
+	max-width: 1064px;
+}
+
+body {
+	background-color: #ffe6ff;
+}
